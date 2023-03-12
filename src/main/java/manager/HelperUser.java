@@ -14,16 +14,16 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//input[@id='password']"), password);
     }
 
-//    public void submitRegistration() {
-//        click((By.xpath("//button[2]")));
-//    }
+    public void submitRegistration() {
+        click((By.xpath("//button[2]")));
+    }
 
     public void submitLogin() {
         click((By.xpath("//button[@type='submit']")));
     }
 
     public void openLoginRegistrationForm() {
-        click(By.xpath("(//a[text()=' Log in ']"));
+        click(By.xpath("//a[text()='Log in']"));
     }
 
     public void logout() {
