@@ -23,7 +23,7 @@ public class HelperUser extends HelperBase{
     }
 
     public void openLoginRegistrationForm() {
-        click(By.xpath("//a[text()='Log in']"));
+        click(By.xpath("//a[text()=' Log in ']"));
     }
 
     public void logout() {
