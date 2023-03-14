@@ -5,17 +5,17 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTests extends TestBase{
+public class LoginTests extends TestBase {
 
-   @BeforeMethod
-   public void preCondition() {
+    @BeforeMethod
+    public void preCondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
         }
     }
 
     @Test
-    public void LoginPositiveTest(){
+    public void LoginPositiveTest() {
 
         app.getUser().openLoginRegistrationForm();
 
@@ -24,7 +24,7 @@ public class LoginTests extends TestBase{
 
         app.getUser().fillLoginRegistrationForm(email, password);
 
-        app.getUser().submitLogin();
+        app.getUser().submitForm();
 
         Assert.assertTrue(app.getUser().isLogged());
 
@@ -39,7 +39,7 @@ public class LoginTests extends TestBase{
         String password = "Illumiel1!";
         app.getUser().fillLoginRegistrationForm(email, password);
 
-        app.getUser().submitLogin();
+        app.getUser().submitForm();
 
         Assert.assertFalse(app.getUser().isLogged());
 
@@ -55,15 +55,15 @@ public class LoginTests extends TestBase{
 
         app.getUser().fillLoginRegistrationForm(email, password);
 
-        app.getUser().submitLogin();
+        app.getUser().submitForm();
 
         Assert.assertFalse(app.getUser().isLogged());
 
     }
 
     @AfterMethod
-    public void tearDown() {
- //        wd.quit();
+    public void postCondition() {
+        app.getUser().clickOkButton();
     }
 
 
