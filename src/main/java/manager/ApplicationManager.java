@@ -10,7 +10,7 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser user;
 
-    public void init(){
+    public void init() {
         wd = new ChromeDriver();
         user = new HelperUser(wd);
         wd.manage().window().maximize();

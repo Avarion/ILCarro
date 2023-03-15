@@ -1,9 +1,10 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-public class HelperUser extends HelperBase{
+public class HelperUser extends HelperBase {
 
     public HelperUser(WebDriver wd) {
         super(wd);
@@ -19,7 +20,8 @@ public class HelperUser extends HelperBase{
     }
 
     public void submitForm() {
-        click((By.xpath("//button[@type='submit']")));
+        wd.findElement(By.cssSelector("button[type='submit']")).submit();
+        //       click((By.xpath("//button[@type='submit']")));
     }
 
     public void openLoginRegistrationForm() {
@@ -34,8 +36,8 @@ public class HelperUser extends HelperBase{
         return isElementPresent(By.xpath("//a[normalize-space()='Logout']"));
     }
 
-    public void clickOkButton(){
-        if (isElementPresent(By.xpath("//button[.='Ok']"))){
+    public void clickOkButton() {
+        if (isElementPresent(By.xpath("//button[.='Ok']"))) {
             click(By.xpath("//button[.='Ok']"));
         }
     }
@@ -51,12 +53,15 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//input[@id='password']"), password);
     }
 
-    public void clickCheckBox(){
-
+    public void clickCheckBox() {
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
     }
 
-
-
-
+    public void closeWindowWithOk() {
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
+            click(By.xpath("//button[text()='Ok']"));
+        }
+    }
 
 }
