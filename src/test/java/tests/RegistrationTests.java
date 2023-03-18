@@ -34,7 +34,7 @@ public class RegistrationTests extends TestBase {
     public void registrationNegativeTestEmail() {
 
         app.getUser().openRegistrationForm();
-        
+
         app.getUser().fillRegistrationForm("Dmitriy", "Peshkov", "avarion87gmail.com", "Illumiel1!");
 
         app.getUser().clickCheckBox();
