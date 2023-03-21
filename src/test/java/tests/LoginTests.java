@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,12 +18,12 @@ public class LoginTests extends TestBase {
     @Test
     public void LoginPositiveTest() {
 
+        User data = new User().withEmail("bogoborec87@gmail.com").withPassword("Illumiel1!");
+
         app.getUser().openLoginRegistrationForm();
 
-        String email = "bogoborec87@gmail.com";
-        String password = "Illumiel1!";
-
-        app.getUser().fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm(data);
+//      app.getUser().fillLoginRegistrationForm("bogoborec87@gmail.com", "Illumiel1!");
 
         app.getUser().submitForm();
 
@@ -35,9 +36,7 @@ public class LoginTests extends TestBase {
 
         app.getUser().openLoginRegistrationForm();
 
-        String email = "bogoborec87gmail.com";
-        String password = "Illumiel1!";
-        app.getUser().fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm("bogoborec87gmail.com", "Illumiel1!");
 
         app.getUser().submitForm();
 
@@ -50,10 +49,7 @@ public class LoginTests extends TestBase {
 
         app.getUser().openLoginRegistrationForm();
 
-        String email = "bogoborec@gmail.com";
-        String password = "Illumiel1";
-
-        app.getUser().fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm("bogoborec@gmail.com", "Illumiel1");
 
         app.getUser().submitForm();
 

@@ -13,17 +13,17 @@ public class User {
 
     public User(){}
 
-    public User(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
-
-    public User(String name, String lastName, String email, String password) {
-        this.name = name;
-        this.lastName = lastName;
-        this.email = email;
-        this.password = password;
-    }
+//    public User(String email, String password) {
+//        this.email = email;
+//        this.password = password;
+//    }
+//
+//    public User(String name, String lastName, String email, String password) {
+//        this.name = name;
+//        this.lastName = lastName;
+//        this.email = email;
+//        this.password = password;
+//    }
 
     public void setName(String name) {
         this.name = name;
@@ -44,6 +44,7 @@ public class User {
     }
 
     public void setEmail(String email) {
+        if(email != null)
         this.email = email;
     }
     public User withEmail(String email) {
@@ -52,6 +53,7 @@ public class User {
     }
 
     public void setPassword(String password) {
+        if(email != null)
         this.password = password;
     }
     public User withPassword(String password) {

@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,6 +22,29 @@ public class RegistrationTests extends TestBase {
 
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         app.getUser().fillRegistrationForm("Dmitriy", "Peshkov", "avarion87" + i + "@gmail.com", "Illumiel1!");
+
+        app.getUser().clickCheckBox();
+
+        app.getUser().submitForm();
+
+        Assert.assertTrue(app.getUser().isLogged());
+
+    }
+
+    @Test
+    public void registrationPositiveTestNew() {
+
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+
+        User user = new User()
+                .withName("Dmitriy")
+                .withLastName("Peshkov")
+                .withEmail("avarion87" + i + "@gmail.com")
+                .withPassword("Illumiel1!" + i);
+
+        app.getUser().openRegistrationForm();
+
+        app.getUser().fillRegistrationForm(user);
 
         app.getUser().clickCheckBox();
 

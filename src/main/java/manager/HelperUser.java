@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +14,11 @@ public class HelperUser extends HelperBase {
     public void fillLoginRegistrationForm(String email, String password) {
         type(By.xpath("//input[@id='email']"), email);
         type(By.xpath("//input[@id='password']"), password);
+    }
+
+    public void fillLoginRegistrationForm(User data) {
+        type(By.xpath("//input[@id='email']"), data.getEmail());
+        type(By.xpath("//input[@id='password']"), data.getPassword());
     }
 
     public void submitRegistration() {
@@ -51,6 +57,13 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[@id='lastName']"), lastName);
         type(By.xpath("//input[@id='email']"), email);
         type(By.xpath("//input[@id='password']"), password);
+    }
+
+    public void fillRegistrationForm(User data) {
+        type(By.xpath("//input[@id='name']"), data.getName());
+        type(By.xpath("//input[@id='lastName']"), data.getLastName());
+        type(By.xpath("//input[@id='email']"), data.getEmail());
+        type(By.xpath("//input[@id='password']"), data.getPassword());
     }
 
     public void clickCheckBox() {
