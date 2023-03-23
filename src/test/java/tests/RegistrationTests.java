@@ -57,9 +57,15 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationNegativeTestEmail() {
 
+        User user1 = new User()
+                .withName("Dmitriy")
+                .withLastName("Peshkov")
+                .withEmail("avarion87gmail.com")
+                .withPassword("Illumiel1!");
+
         app.getUser().openRegistrationForm();
 
-        app.getUser().fillRegistrationForm("Dmitriy", "Peshkov", "avarion87gmail.com", "Illumiel1!");
+        app.getUser().fillRegistrationForm(user1);
 
         app.getUser().clickCheckBox();
 
@@ -74,9 +80,15 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationNegativeTestPassword() {
 
+        User user2 = new User()
+                .withName("Dmitriy")
+                .withLastName("Peshkov")
+                .withEmail("avarion87@gmail.com")
+                .withPassword("Illumiel1");
+
         app.getUser().openRegistrationForm();
 
-        app.getUser().fillRegistrationForm("Dmitriy", "Peshkov", "avarion87@gmail.com", "Illumiel1");
+        app.getUser().fillRegistrationForm(user2);
 
         app.getUser().clickCheckBox();
 

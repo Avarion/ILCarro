@@ -34,9 +34,11 @@ public class LoginTests extends TestBase {
     @Test
     public void loginNegativeTestEmail() {
 
+        User data1 = new User().withEmail("bogoborec87gmail.com").withPassword("Illumiel1!");
+
         app.getUser().openLoginRegistrationForm();
 
-        app.getUser().fillLoginRegistrationForm("bogoborec87gmail.com", "Illumiel1!");
+        app.getUser().fillLoginRegistrationForm(data1);
 
         app.getUser().submitForm();
 
@@ -47,9 +49,11 @@ public class LoginTests extends TestBase {
     @Test
     public void loginNegativeTestPassword() {
 
+        User data2 = new User().withEmail("bogoborec87@gmail.com").withPassword("Illumiel1");
+
         app.getUser().openLoginRegistrationForm();
 
-        app.getUser().fillLoginRegistrationForm("bogoborec@gmail.com", "Illumiel1");
+        app.getUser().fillLoginRegistrationForm(data2);
 
         app.getUser().submitForm();
 
