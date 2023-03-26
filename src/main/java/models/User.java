@@ -13,18 +13,6 @@ public class User {
 
     public User(){}
 
-//    public User(String email, String password) {
-//        this.email = email;
-//        this.password = password;
-//    }
-//
-//    public User(String name, String lastName, String email, String password) {
-//        this.name = name;
-//        this.lastName = lastName;
-//        this.email = email;
-//        this.password = password;
-//    }
-
     public void setName(String name) {
         this.name = name;
     }
