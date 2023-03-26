@@ -28,4 +28,6 @@ public class HelperBase {
     public boolean isElementPresent(By locator) {
         return (wd.findElements(locator).size() > 0);
     }
+
+
 }
