@@ -42,6 +42,8 @@ public class RegistrationTests extends TestBase {
                 .withEmail("avarion87" + i + "@gmail.com")
                 .withPassword("Illumiel1!" + i);
 
+        logger.info("registrationPositiveTest start with: " + user.getEmail() + user.getName());
+
         app.getUser().openRegistrationForm();
 
         app.getUser().fillRegistrationForm(user);
