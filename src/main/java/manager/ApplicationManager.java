@@ -2,6 +2,7 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,12 +12,16 @@ public class ApplicationManager {
 
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
-    WebDriver wd;
+//  WebDriver wd;
+
+    EventFiringWebDriver wd;
     HelperUser user;
     HelperSearch search;
 
     public void init() {
-        wd = new ChromeDriver();
+        wd = new EventFiringWebDriver(new ChromeDriver());
+        wd.register(new MyListener());
+        wd = new EventFiringWebDriver(wd);
         user = new HelperUser(wd);
         search=new HelperSearch(wd);
 //        wd.manage().window().maximize();

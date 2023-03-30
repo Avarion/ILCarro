@@ -1,0 +1,25 @@
+3753 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+13833 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+13835 [Test worker] INFO  tests.TestBase  registrationPositiveTest start with: avarion872315@gmail.comDmitriy
+13835 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+13849 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successful
+13916 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='name']
+13942 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='name'] is found successful
+14065 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='lastName']
+14084 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='lastName'] is found successful
+14197 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='email']
+14211 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='email'] is found successful
+14350 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='password']
+14369 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='password'] is found successful
+14506 [Test worker] INFO  manager.MyListener  Start searching element by By.cssSelector: button[type='submit']
+14523 [Test worker] INFO  manager.MyListener  The element with locator by By.cssSelector: button[type='submit'] is found successful
+14544 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[text()='Ok']
+15632 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[text()='Ok'] is found successful
+15633 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[text()='Ok']
+15659 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[text()='Ok'] is found successful
+15687 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+15701 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+15705 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+15720 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+15721 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+15737 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
