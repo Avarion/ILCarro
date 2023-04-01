@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b769f8-e4b4-40eb-8433-c717767b1724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/log-20230330T193822.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230401T172102.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230401T172916.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230401T173820.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230401T174634.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Tools/QA18/Phonebook_QA18&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sasha/Downloads/ILCarro_QA18-master (1)/ILCarro_QA18-master&quot;
   }
 }</component>
   <component name="RunManager" selected="Gradle.RegistrationTests.registrationPositiveTestNew">

@@ -21,7 +21,7 @@ public class ApplicationManager {
     public void init() {
         wd = new EventFiringWebDriver(new ChromeDriver());
         wd.register(new MyListener());
-        wd = new EventFiringWebDriver(wd);
+//      wd = new EventFiringWebDriver(wd);
         user = new HelperUser(wd);
         search=new HelperSearch(wd);
 //        wd.manage().window().maximize();
