@@ -1,0 +1,30 @@
+2997 [Test worker] INFO  tests.TestBase     ### Start test registrationPositiveTestNew
+3000 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+13056 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+13058 [Test worker] INFO  tests.TestBase  registrationPositiveTest start with: avarion873557@gmail.comDmitriy
+13058 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[.=' Sign up ']
+13074 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[.=' Sign up '] is found successful
+13146 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='nam']
+23216 [Test worker] INFO  manager.MyListener  Something went wrong!
+23216 [Test worker] INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nam']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '10.100.102.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:2769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbbc17771c884ea6649603551b5a3574
+*** Element info: {Using=xpath, value=//input[@id='nam']}
+23216 [Test worker] INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nam']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '10.100.102.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:2769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbbc17771c884ea6649603551b5a3574
+*** Element info: {Using=xpath, value=//input[@id='nam']}
+23469 [Test worker] INFO  manager.MyListener  Here is the link to screenshot with error: src/test/screenshots/screenshot-3567.png
+23471 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+33533 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+33533 [Test worker] INFO  tests.TestBase     ### Finished ###

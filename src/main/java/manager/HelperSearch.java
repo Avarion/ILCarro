@@ -16,7 +16,7 @@ public class HelperSearch extends HelperBase{
         wd.findElement(By.id("dates")).click();
         wd.findElement(By.xpath("//div[@class='mat-calendar-arrow']")).click();
         wd.findElement(By.xpath("//div[text()= 2023 ]")).click();
-        wd.findElement(By.xpath("//div[text()=' MAR ']")).click();
+        wd.findElement(By.xpath("//div[text()=' APR ']")).click();
         wd.findElement(By.xpath("//div[contains(text(),'27')]")).click();
         wd.findElement(By.xpath("//div[contains(text(),'30')]")).click();
 
