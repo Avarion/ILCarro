@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b769f8-e4b4-40eb-8433-c717767b1724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T184356.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T184609.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T184630.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T185904.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T185952.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T195551.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T200006.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T200105.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230404T200926.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/NGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3483.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3567.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-590.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6b769f8-e4b4-40eb-8433-c717767b1724" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
