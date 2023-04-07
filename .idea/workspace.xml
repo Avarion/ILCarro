@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b769f8-e4b4-40eb-8433-c717767b1724" name="Changes" comment="" />
+    <list default="true" id="c6b769f8-e4b4-40eb-8433-c717767b1724" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T121914.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/ProviderData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1182.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,10 +68,10 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Tools/QA18/Phonebook_QA18&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Tools/QA18/ILCarro&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SearchCarTests.searchCar">
+  <component name="RunManager" selected="Gradle.LoginTests.LoginPositiveTest">
     <configuration name="LoginTests.LoginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTests.LoginPositiveTest" />
         <item itemvalue="Gradle.SearchCarTests.searchCar" />
         <item itemvalue="Gradle.RegistrationTests.registrationPositiveTestNew" />
-        <item itemvalue="Gradle.LoginTests.LoginPositiveTest" />
         <item itemvalue="Gradle.RegistrationTests.registrationPositiveTest" />
         <item itemvalue="Gradle.SearchCarTests" />
       </list>

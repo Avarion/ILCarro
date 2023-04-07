@@ -27,6 +27,8 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().submitForm();
 
+        app.getUser().closeWindowWithOk();
+
         Assert.assertTrue(app.getUser().isLogged());
 
     }
