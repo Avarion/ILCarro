@@ -1,0 +1,20 @@
+2999 [Test worker] INFO  tests.TestBase     ### Start test LoginPositiveTestConfig
+3004 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+13029 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+13030 [Test worker] INFO  manager.NGListener  Start of the test: LoginPositiveTestConfig
+13030 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[text()=' Log in ']
+13044 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[text()=' Log in '] is found successful
+13112 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='email']
+13137 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='email'] is found successful
+13278 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='password']
+13296 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='password'] is found successful
+13413 [Test worker] INFO  manager.MyListener  Start searching element by By.cssSelector: button[type='submit']
+13438 [Test worker] INFO  manager.MyListener  The element with locator by By.cssSelector: button[type='submit'] is found successful
+13471 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+14493 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+14496 [Test worker] INFO  manager.NGListener  Test success: LoginPositiveTestConfig
+14496 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+14513 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+14513 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+14530 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+14566 [Test worker] INFO  tests.TestBase     ### Finished ###

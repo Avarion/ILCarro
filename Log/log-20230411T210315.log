@@ -1,0 +1,20 @@
+3065 [Test worker] INFO  tests.TestBase     ### Start test LoginPositiveTestConfig
+3068 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+13094 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+13094 [Test worker] INFO  manager.NGListener  Start of the test: LoginPositiveTestConfig
+13095 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[text()=' Log in ']
+13110 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[text()=' Log in '] is found successful
+13179 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='email']
+13205 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='email'] is found successful
+13346 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[@id='password']
+13361 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[@id='password'] is found successful
+13496 [Test worker] INFO  manager.MyListener  Start searching element by By.cssSelector: button[type='submit']
+13521 [Test worker] INFO  manager.MyListener  The element with locator by By.cssSelector: button[type='submit'] is found successful
+13553 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[normalize-space()='Logout']
+23584 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[normalize-space()='Logout'] is found successful
+23587 [Test worker] INFO  manager.NGListener  Test failure: java.lang.AssertionError: expected [true] but found [false]
+23588 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+23606 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+23606 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Ok']
+23621 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Ok'] is found successful
+23657 [Test worker] INFO  tests.TestBase     ### Finished ###

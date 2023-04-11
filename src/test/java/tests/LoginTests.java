@@ -23,8 +23,6 @@ public class LoginTests extends TestBase {
     @Test(dataProvider = "loginModelDto", dataProviderClass = ProviderData.class)
     public void LoginPositiveTest(User data) {
 
-//      User data = new User().withEmail("bogoborec87@gmail.com").withPassword("Illumiel1!");
-
         app.getUser().openLoginRegistrationForm();
 
         app.getUser().fillLoginRegistrationForm(data);
@@ -34,6 +32,20 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUser().isLogged());
 
     }
+
+    @Test
+    public void LoginPositiveTestConfig() {
+
+        app.getUser().openLoginRegistrationForm();
+
+        app.getUser().fillLoginRegistrationForm(app.getEmail(), app.getPassword());
+
+        app.getUser().submitForm();
+
+        Assert.assertTrue(app.getUser().isLogged());
+
+    }
+
     @Test
     public void LoginPositiveTestPast() {
 
